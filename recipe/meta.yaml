@@ -1,4 +1,4 @@
-{% set version = '0.7-2' %}
+{% set version = "0.8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/InvariantCausalPrediction_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/InvariantCausalPrediction/InvariantCausalPrediction_{{ version }}.tar.gz
-  sha256: ba22c8a62929c32e54c283d6816010b6141c2d11366112c6940c98e53d944123
+  sha256: 542ecf1dacc153bca2d9c055da57f8650d4e8925aa850df2bcadd344e5f69305
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1001
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
