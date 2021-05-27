@@ -39,7 +39,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=InvariantCausalPrediction
-  license: GPL
+  license: GPL-2.0-or-later
   summary: 'Confidence intervals for causal effects, using data collected in different experimental
     or environmental conditions. Hidden variables can be included in the model with
     a more experimental version. '
