@@ -1,11 +1,11 @@
-About r-invariantcausalprediction
-=================================
+About r-invariantcausalprediction-feedstock
+===========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-invariantcausalprediction-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=InvariantCausalPrediction
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-invariantcausalprediction-feedstock/blob/main/LICENSE.txt)
 
 Summary: Confidence intervals for causal effects, using data collected in different experimental or environmental conditions. Hidden variables can be included in the model with a more experimental version. 
 
